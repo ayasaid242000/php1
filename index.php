@@ -4,9 +4,13 @@
 ?>  -->
 
      <!-- TASK 2 -->
+     <!-- TWO WAYS OF CONSTRAIN -->
  <?php
 define("webname", "<p> CMS web </p>" );
 echo webname;
+    // <!-- TWO WAYS OF CONSTRAIN -->
+const web= 'our website';
+echo web.'<br>' ;
 ?> 
 <?php 
         //------ TASK 3-----
